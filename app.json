@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "ASSENT Connect Plus",
+    "slug": "assent-connect-plus",
+    "version": "1.0.13",
+    "orientation": "portrait",
+    "icon": "./assets/assent-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/assent-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "runtimeVersion": "1.0.13",
+    "updates": {
+      "url": "https://u.expo.dev/4878911d-b2d3-47a2-ab45-6a9873e5b488"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/assent-icon-adaptive.png",
+        "backgroundColor": "#ffffff"
+      },
+
+      "package": "com.assent.connectplus",
+      "versionCode": 3
+    },
+    "ios": {
+      "supportsTablet": false,
+      "icon": "./assets/assent-icon-120.png",
+      "bundleIdentifier": "com.assent.connectplus",
+      "buildNumber": "1",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4878911d-b2d3-47a2-ab45-6a9873e5b488"
+      }
+    },
+    "notification": {
+      "icon": "./assets/app-no.png",
+      "color": "#ffffff",
+      "sounds": []
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "devlopernaman"
+        }
+      ]
+    ]
+  }
+}
