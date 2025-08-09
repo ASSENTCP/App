@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "aamsoh",
     "name": "ASSENT Connect Plus",
     "slug": "assent-connect-plus",
     "version": "1.0.14",
@@ -38,7 +39,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "4878911d-b2d3-47a2-ab45-6a9873e5b488"
+        "projectId": "7c997bf9-a6c5-4720-8ad2-4f6346117b34"
       }
     },
     "notification": {
@@ -59,7 +60,7 @@
       [
         "expo-updates",
         {
-          "username": "devlopernaman"
+          "username": "aamsoh"
         }
       ]
     ]
