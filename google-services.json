@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35833122517",
+    "project_id": "assent-connect-plus-3014e",
+    "storage_bucket": "assent-connect-plus-3014e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35833122517:android:a7cf93bf77b93baf83dc5c",
+        "android_client_info": {
+          "package_name": "com.assent.connectplus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9GN1l5BwpRH4Sh3-FHj1G5VclJhtx7uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
